@@ -1,14 +1,3 @@
-Brain.com.ua Parser — Playwright
-
-Parser for collecting product information from Brain.com.ua using Playwright.
-
-The collected data is saved to PostgreSQL through Django ORM.
-
-Requirements
-Python 3.10+
-Google Chrome
-PostgreSQL
-Internet connection
 Installation
 
 Create and activate a virtual environment:
@@ -31,16 +20,26 @@ Environment variables
 Create a .env file in the project root:
 
 # DJANGO
+
 SECRET_KEY=django-insecure-mbvh03e+9rmomqmnf9=l)09byu-sa+2-@pfoty)rnrbj#d0fu8
+
 DEBUG=TRUE
+
 ALLOWED_HOSTS=localhost,127.0.0.1
 
+
 # POSTGRES
+
 DB_ENGINE=django.db.backends.postgresql
+
 DB_NAME=braincom_project_playwright
+
 DB_USER=postgres
+
 DB_PASSWORD=1
+
 DB_HOST=localhost
+
 DB_PORT=5432
 
 Make sure PostgreSQL is running and the database exists.
