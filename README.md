@@ -1,4 +1,4 @@
-Installation
+# Installation
 
 Create and activate a virtual environment:
 
@@ -41,6 +41,7 @@ DB_PASSWORD=1
 DB_HOST=localhost
 
 DB_PORT=5432
+
 
 Make sure PostgreSQL is running and the database exists.
 
