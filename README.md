@@ -1,3 +1,9 @@
+Brain.com.ua Parser — Playwright
+
+Parser for collecting product information from Brain.com.ua using Playwright.
+
+The collected data is saved to PostgreSQL through Django ORM.
+
 Requirements
 Python 3.10+
 Google Chrome
